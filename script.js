@@ -27,7 +27,7 @@ var newWord = document.getElementById("mire").value;;
 
 var result = censor(text, toChange, newWord);
 document.getElementById("eredmeny").innerHTML = result
-
+return false;
 }
 
 
