@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szó cserélő</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="headline">
+        <h1>Változtasd kedvedre a szavakat.</h1>
+        <h2>A következőkben lehetőséged lesz az általad beírt szövegek megváltoztatására.</h2>
+        <h3>Figyelj a kis és nagy betűkre, továbbá a szavak végén lévő írásjelekre.</h3>
+        </div>
+
+
+    <form>
+        <label for="szoveg">Írd be a szöveget:</label><br>
+        <textarea id="szoveg" name="szoveg" rows="8" cols="50"></textarea><br>
+        <label for="mit">Melyik szót változtassuk meg?</label><br>
+        <input type="text" id="mit" name="mit"><br>
+        <label for="mire">Mire változtassuk meg?</label><br>
+        <input type="text" id="mire" name="mire">
+        <br>
+        <button onclick="megjelenites()">Beküldés</button>
+    </form>
+    
+    <div class="kiiras">
+        <h3>A módosított szöveg:</h3>
+        <p id="eredmeny"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
