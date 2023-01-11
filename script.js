@@ -21,13 +21,13 @@ document.getElementById("eredmeny").innerHTML = result*/
 //Eredmény kiírása html oldalra kész.
 
 function megjelenites(){
-var text = document.getElementById("szoveg").value;
-var toChange = document.getElementById("mit").value;
-var newWord = document.getElementById("mire").value;
+	var text = document.getElementById("szoveg").value;
+	var toChange = document.getElementById("mit").value;
+	var newWord = document.getElementById("mire").value;
 
-var result = censor(text, toChange, newWord);
-document.getElementById("eredmeny").innerHTML = result
-return false;
+	var result = censor(text, toChange, newWord);
+	document.getElementById("eredmeny").innerHTML = result
+	return false;
 }
 
 
