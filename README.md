@@ -1,1 +1,1 @@
-szocsere.github.io
+https://petergyenge.github.io/szocsere/
