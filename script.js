@@ -34,8 +34,7 @@ var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var ora = today.getHours();
 var perc = today.getMinutes();
-var masodperc = today.getSeconds()
-var dateTime = ora + ":" + perc  + ":" +  masodperc;
+var dateTime = ora + ":" + perc;
 
 if(ora >=6 && ora <= 10){
   document.getElementById("ido").innerHTML = "Jó reggelt! A pontos idő: " + date + " " + dateTime
